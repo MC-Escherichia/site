@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  margin: 40px auto;
+  padding: 0 1em;
+  max-width: 61.75em;
+}
+
+body {
+  background: #1E1E1E;
+  color: #FFF;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+a {
+  color: #8FDFFD;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #3366CC;
+}
+
+h3 a {
+  text-align: right;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 2.25em;
+  line-height: 1.1458334;
+  margin-left: 14.574899%;
+  margin-bottom: 1.07em;
+  width: 70.850204%;
+  text-transform: uppercase;
+}
+
+.entry {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.entry h2, .entry .content {
+  float: right;
+  width: 85.4251%;
+}
+
+.entry .info, .entry .meta {
+  font-size: 0.6875em;
+  font-weight: bold;
+  line-height: 1.4545455;
+}
+
+.entry h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.6666667em;
+}
+
+.entry .entypo {
+  height: 1.5em;
+  width: 1.5em;
+  margin: 0.5em;
+}
+
+.entry .info {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  position: fixed;
+  float: left;
+  margin-top: 0.72727275em;
+  width: 12.550608%;
+}
+
+.entry .main {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.375;
+  font-family: Georgia, Times, serif;
+  float: left;
+  width: 82.938385%;
+}
+
+.entry .main p {
+  text-indent: 1.5em;
+}
+
+.entry .main p:first-child {
+  text-indent: 0;
+}
+
+.entry h3 {
+  margin-top: 0.75em;
+}
+
+.entry h3:first-child {
+  margin-top: 0;
+}
+
+.entry .meta {
+  margin: 0.5em 0;
+  opacity: 0.7;
+  float: right;
+  width: 12.550608%;
+}
+
+.entry .company, .entry .position {
+  font-size: 0.875em;
+  width: 50%;
+  float: left;
+}
+
+.entry .place, .entry .dates {
+  font-size: 0.875em;
+  width: 49.857143%;
+  float: right;
+  text-align: right;
+}
+
+.entry .company, .entry .place {
+  line-height: 1.375;
+}
+
+.entry .dates, .entry .position {
+  font-variant: small-caps;
+  line-height: 1.125;
+}
+
+.entry .desc {
+  font-size: 0.75em;
+  margin-bottom: 1em;
+}
